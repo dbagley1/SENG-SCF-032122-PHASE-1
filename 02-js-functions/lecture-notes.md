@@ -37,11 +37,11 @@ arrow function => ES6 syntax for writing functions ex: <br> ```const addNum = (n
 
 1. (Anonymous) function can be assigned as the value to a variable (function expression) => ex: <br> ```const addNum = function(num1, num2){return num1 + num2}```
 
-2. Function can be passed as an argument (callback function) => ex: <br> ```const callback = () => console.log("imma callback function")``` <br> ```genericFunc(callback)```
+2. Function can be passed as an argument (callback function) => ex: <br> ```const passingFunc = () => console.log("imma callback function")``` <br> ```const genericFunc = (callback) => callback()``` ```genericFunc(passingFunc)```
 
 Important note: whenever we pass a cb function as our argument, DO NOT INVOKE THE FUNCTION. Just reference it (without the ```()```). Function will be invoked inside the body of the function declaration.
 
-3. function can take a (callback) function as an argument, or it can return a function (HOF) => ex: <br> ```function addNums(){return 2 + 2}```<br>```const HOF = () => addNums() * 2``` <br> or => ```setTimeout(() => console.log("...i'm waiting"), 3000)```
+3. function that takes a (callback) function as an argument, or it can return a function (HOF) => ex: <br> ```function addNums(){return 2 + 2}```<br>```const HOF = () => addNums() * 2``` <br> or => ```setTimeout(() => console.log("...i'm waiting"), 3000)```
 
 
 

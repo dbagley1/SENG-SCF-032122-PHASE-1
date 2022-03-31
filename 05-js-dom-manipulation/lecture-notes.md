@@ -1,0 +1,1 @@
+As per [Geeks for Geeks](https://www.geeksforgeeks.org/what-is-the-difference-between-properties-and-attributes-in-html/) "The DOM is the acronym for the Document Object Model. When the browser parses your HTML code, it creates a corresponding DOM node. The HTML properties are accessed from this node object."
