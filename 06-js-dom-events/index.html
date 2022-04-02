@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="index.js"></script>
+    <script src="db.js"></script>
+    <title>Lesson 6: DOM Manipulation and Events!</title>
+  </head>
+  <body>
+    <h3 id="welcome">
+      Welcome <em>SCF X Flatiron School Cohort</em> to Lesson 6
+    </h3>
+    <div id="header"></div>
+
+    <div id="poke-form-container">
+      <form id="poke-form">
+        <label class="form-label"><strong>New Poke Name: </strong></label>
+        <input type="text" id="name-input" />
+
+        <label class="form-label"><strong>New Poke Image: </strong></label>
+        <input type="text" id="img-input" />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="lecture-container">
+      We will continue to manipulate the DOM and obtain full CRUD functionality! by using:
+      <br />
+      <ul>
+        <li>.getElementById()</li>
+        <li>.getElementsByClassName()</li>
+        <br />
+        <li>.querySelector()</li>
+        <li>.querySelectorAll()</li>
+        <br />
+        <li>.createElement()</li>
+        <li>.appendChild()</li>
+        <br />
+        <li>.remove()</li>
+        <br />
+        <li>.innerHTML</li>
+        <li>.innerText, and .textContent</li>
+      </ul>
+    </div>
+    <div id="poke-container"></div>
+  </body>
+</html>
