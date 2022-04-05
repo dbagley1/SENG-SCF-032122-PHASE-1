@@ -34,6 +34,7 @@ Assignment: define a function increaseValue() that should take 2 parameters: 'ob
 - Non-Destructive Delete: use spread and then delete keyword
 ex: ```const newChar = {...char}``` then => ```delete newChar.abilities```
 
+Write a function charDetails() that takes a character object in as an argument and loops through the object using the for...in method to print out the values of each property *See index.js for answer*
 
  -- CALL TO ACTION - create a new complex object that represents you (inside this object you can use arrays, objects, strings, numbers, null, anything that makes sense for your data), and practice accessing various properties manually. Then write functions to try to access those same values.
 

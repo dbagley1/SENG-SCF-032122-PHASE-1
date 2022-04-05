@@ -33,8 +33,8 @@ then....
 
 ### 7. Go into your VS Code. Make sure your terminal puts you into the outer directory called SCF-SENG-032122-phase-1 (not in an inner folder). 
 
-*To avoid merge conflicts, make sure your index.js is empty. Any code there can be cut and pasted into notes.js or otherIndex.js.*
+*To avoid merge conflicts, make sure your index.js does not have new code. Any code there can be cut and pasted into studentNotes.js. You can use the `git restore <file path>` command to make sure you aren't adding/committing that file *
 
 ### 8. Add and commit all changes (i.e., `git add .` and `git commit -m "your message goes here"`) 
 
-### 9. Go ahead and `git pull` and you should be good to go! (You can `git push` after this step. At this point your Github repo will be 100% up to date with what is on your system.)
+### 9. Go ahead and `git pull origin main` or `git pull --rebase` and you should be good to go! (You can `git push` after this step. At this point your Github repo will be 100% up to date with what is on your system.)

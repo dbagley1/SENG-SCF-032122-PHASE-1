@@ -23,6 +23,8 @@ Please take some time to look at these tools for manipulating the DOM (we will g
 Create and append new elements to the DOM
 
 
-### HELPFUL VS Code Extension
+### Additional Resources
+- [Defer (Boolean) Attribute](https://www.w3schools.com/tags/att_defer.asp)
+
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
     - Automatically matches ends of HTML tags if you edit the opening tag
