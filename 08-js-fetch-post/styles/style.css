@@ -3,21 +3,23 @@
 body {
   box-sizing: border-box;
   background: linear-gradient(rgb(243, 243, 178), rgb(143, 143, 239));
-  /* height: 100vh; */
+  font-family: 'Roboto', sans-serif;
 }
 
-#welcome {
-  margin-left: 75px;
-}
 
-@counter-style thumbs {
+@counter-style stars {
   system: cyclic;
-  symbols: "\1F999";
+  symbols: "\2733";
   suffix: " ";
 }
 
-ul {
-  list-style-type: thumbs;
+#poke-show-card ul {
+  list-style-type: stars;
+  font-size: 20px;
+}
+
+#poke-show-card ul li {
+  text-align: left;
 }
 
 #poke-form-container {
