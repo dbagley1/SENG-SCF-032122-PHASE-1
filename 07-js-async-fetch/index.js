@@ -2,7 +2,7 @@ const pokeForm = document.getElementById("poke-form");
 
 pokeForm.addEventListener("submit", addPoke);
 
-
+// create poke function will not work with our API -- yet. But it still works with our static pokemonDB.
 function addPoke(e) {
   e.preventDefault();
   const name = document.getElementById("name-input").value;
@@ -29,6 +29,10 @@ function renderPokemon(character) {
   pokeCard.addEventListener('click', () => {
     showCharacter(character);
   });
+
+  pokeCard.addEventListener("click", () => showCharacter(character));
+  // NOTE: the below listener does not work because we haven't passed our character object as an argument
+  // pokeCard.addEventListener("click", showCharacter)
 
   const pokeImg = document.createElement("img");
   pokeImg.src = character.img;
@@ -61,11 +65,16 @@ function renderPokemon(character) {
   deleteBtn.className = "delete-btn";
   deleteBtn.textContent = "Delete";
 
-  deleteBtn.addEventListener("click", () => pokeCard.remove());
+  deleteBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    pokeCard.remove();
+  });
 
   pokeCard.append(pokeImg, pokeName, pokeLikes, likesNum, likeBtn, deleteBtn);
   pokeContainer.append(pokeCard);
 
+  // returning our pokeCard so we can use the return value of the render function in our pokeCard div event listener
+  return pokeCard;
 }
 
 const pokeContainer = document.querySelector("#poke-container");
