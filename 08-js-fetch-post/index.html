@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <script defer src="index.js"></script>
-    <script src="db.js"></script>
-    <title>Lesson 8: Fetch POST</title>
-  </head>
-  <body>
-    <div id="header">
-      <img
-        id="header-img"
-        src="https://external-preview.redd.it/tQged7mKJ3cUpNMq5IMeceZvyKP3cTyHqhNmKEQ0Vv8.png?auto=webp&s=fb5fd61cae0bc9cde2bc2a006b1e2aeb0c935ce9"
-      />
-    </div>
 
-    <div id="poke-form-container">
-      <form id="poke-form">
-        <label class="form-label"><strong>New Poke Name: </strong></label>
-        <input type="text" id="name-input" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/global.css" />
+  <link rel="stylesheet" href="../07-js-async-fetch/styles/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script defer src="studentNotes.js"></script>
+  <script src="db.js"></script>
+  <title>Lesson 8: Fetch POST</title>
+</head>
 
-        <label class="form-label"><strong>New Poke Image: </strong></label>
-        <input type="text" id="img-input" />
+<body>
+  <div id="header">
+    <img
+         id="header-img"
+         src="https://external-preview.redd.it/tQged7mKJ3cUpNMq5IMeceZvyKP3cTyHqhNmKEQ0Vv8.png?auto=webp&s=fb5fd61cae0bc9cde2bc2a006b1e2aeb0c935ce9" />
+  </div>
 
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
-    <div id="poke-container"></div>
-  </body>
+  <div id="poke-form-container">
+    <form id="poke-form" action="#">
+      <label class="form-label"><strong>New Poke Name: </strong></label>
+      <input type="text" id="name-input" />
+
+      <input type="submit" value="Add Pokemon" />
+    </form>
+  </div>
+  <div id="poke-container"></div>
+</body>
+
 </html>
