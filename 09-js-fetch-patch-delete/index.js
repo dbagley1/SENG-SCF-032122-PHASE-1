@@ -165,3 +165,4 @@ function renderPokemon(character) {
   // returning our pokeCard so we can use the return value of the render function in our pokeCard div event listener
   return pokeCard
 }
+

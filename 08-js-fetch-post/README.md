@@ -1,11 +1,11 @@
 ### Fetch - making a POST request
 
 Agenda:<br>
-6:00-7:00pm - Review our Pokemon project codebase & begin our warm up exercise in groups<br>
+6:00-7:00pm - Reviewed our Pokemon project codebase & began our warm up exercise in groups<br>
 7:00-7:10pm - BREAK <br>
-7:10-8:10pm - Continue warm up exercise as needed. Then discuss the process of making a fetch POST request <br>
-8:10-8:20pm - BREAK <br>
-8:20-9:00pm - Make a POST request on our Poke project! <br>
+7:10-8:30pm - Continued warm up exercise and then discussed.  <br>
+8:30-8:40pm - BREAK <br>
+8:40-9:00pm - Intro to POST requests <br>
 
 ***
 
@@ -41,18 +41,16 @@ Agenda:<br>
 
 - Comment back in 2 lines inside of `showCharacter()` to test if comments will render to the DOM when a character card is clicked
 
-- Finally, locate the `form` variable that is inside of `commentsForm()`, attached an event listener with the accurate event type, and `console.log()` some message to ensure the event listener was attached correctly.
+~~- Finally, locate the `form` variable that is inside of `commentsForm()`, attached an event listener with the accurate event type, and `console.log()` some message to ensure the event listener was attached correctly.~~
 
 ***
 
 ### Tonight's Deliverable
 
-1. Submit a POST request with a new pokemon character and append to the DOM
+~~1. Submit a POST request with a new pokemon character and append to the DOM~~
 
 ***
 ### Resources
-
-- [Dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
 
 - [HTTP DOGS](https://httpstatusdogs.com/) and [HTTP CATS](https://http.cat/)
 
