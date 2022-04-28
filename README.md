@@ -37,4 +37,4 @@ then....
 
 ### 8. Add and commit all changes (i.e., `git add .` and `git commit -m "your message goes here"`) 
 
-### 9. Go ahead and `git pull origin main` or `git pull --rebase` and you should be good to go! (You can `git push` after this step. At this point your Github repo will be 100% up to date with what is on your system.)
+### 9. Go ahead and `git pull --rebase` and you should be good to go! (You can `git push` after this step. At this point your Github repo will be 100% up to date with what is on your system.)

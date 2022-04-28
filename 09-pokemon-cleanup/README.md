@@ -18,7 +18,5 @@ DRY - Don't Repeat Yourself
 - For this project, we will start with the following endpoint: `http://localhost:3000/characters`
 
 
-***
 
-### Resources
 
