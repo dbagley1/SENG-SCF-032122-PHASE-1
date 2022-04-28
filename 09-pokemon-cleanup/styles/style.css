@@ -108,7 +108,7 @@ input[type="text"]:not(.edit-input) {
   margin: 8px 0;
 }
 
-input[type="submit"] {
+input[type="submit"], .reset {
   background-color: #4c6de4;
   color: #f6dc78;
   padding: 14px 20px;
@@ -119,7 +119,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover, .reset {
   background-color: #f6dc78;
   color: #4c6de4;
 }
